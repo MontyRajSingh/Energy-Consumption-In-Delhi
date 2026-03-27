@@ -3,7 +3,6 @@
 
 This project focuses on forecasting hourly electricity demand for the city of Delhi, India using machine learning techniques. The objective is to support smart grid planning, demand management, and energy optimization by predicting future energy consumption based on historical usage, weather conditions, and solar power generation.
 
-⸻
 
 Problem Statement
 
@@ -29,7 +28,6 @@ This project builds an ML model to accurately forecast energy demand using real-
 	•	Visualize actual vs predicted demand
 	•	Demonstrate future load prediction capabilities
 
-⸻
 
  Techniques Used
 
@@ -41,7 +39,7 @@ Models                  Linear Regression, Random Forest, XGBoost
 Evaluation Metrics      MAE, RMSE
 Visualization           Load curves, error histogram, feature importance
 
-📊 Dataset Description
+ Dataset Description
 Hourly dataset for Delhi (8,737 rows — full year) containing:
 Feature             Description
 
@@ -60,7 +58,7 @@ Model                    MAE ↓           RMSE ↓
 Linear Regression      ~416.23          ~533.92
 Random Forest          ~220.88          ~289.97
 XGBoost                ~193.56          ~255.12
-✅ XGBoost gave the best forecasting accuracy
+ XGBoost gave the best forecasting accuracy
 
 
 
