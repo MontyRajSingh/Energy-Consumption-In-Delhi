@@ -1,11 +1,11 @@
 
-⚡ Energy Consumption Forecasting in Delhi Using Machine Learning
+ Energy Consumption Forecasting in Delhi Using Machine Learning
 
 This project focuses on forecasting hourly electricity demand for the city of Delhi, India using machine learning techniques. The objective is to support smart grid planning, demand management, and energy optimization by predicting future energy consumption based on historical usage, weather conditions, and solar power generation.
 
 ⸻
 
-📌 Problem Statement
+Problem Statement
 
 Electricity demand fluctuates throughout the day due to factors like temperature, solar energy availability, working hours, weekends, and holidays. Accurate forecasting is crucial for:
 	•	Efficient power grid operation
@@ -16,9 +16,9 @@ Electricity demand fluctuates throughout the day due to factors like temperature
 
 This project builds an ML model to accurately forecast energy demand using real-world data from Delhi, India.
 
-⸻
 
-🎯 Project Objectives
+
+ Project Objectives
 	•	Perform exploratory data analysis (EDA) on Delhi electricity consumption
 	•	Engineer time-series features (lags, rolling windows, weekdays, weather)
 	•	Train and compare models:
@@ -31,7 +31,7 @@ This project builds an ML model to accurately forecast energy demand using real-
 
 ⸻
 
-🧠 Techniques Used
+ Techniques Used
 
 Category                Methods
 
@@ -54,7 +54,7 @@ is_holiday          1/0
 solar_generation    MW
 load (Target)       Electricity demand in MW
 
-🚀 Model Performance
+  Model Performance
 Model                    MAE ↓           RMSE ↓
 
 Linear Regression      ~416.23          ~533.92
@@ -64,7 +64,7 @@ XGBoost                ~193.56          ~255.12
 
 
 
-📈 Key Visualizations
+ Key Visualizations
 	•	Actual vs Predicted Demand
 	•	Zoomed prediction (first 200 hours)
 	•	Error distribution plot
